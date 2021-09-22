@@ -140,6 +140,8 @@
   <ItemGroup>
     <ClCompile Include="Greedy_11399.cpp" />
     <ClCompile Include="Greedy_2839.cpp" />
+    <ClCompile Include="Greedy_4796.cpp" />
+    <ClCompile Include="Greedy_5585.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

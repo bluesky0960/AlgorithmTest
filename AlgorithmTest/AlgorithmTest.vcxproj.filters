@@ -13,13 +13,22 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Greedy">
+      <UniqueIdentifier>{d6df3d1b-a244-493c-9896-5a9bf41f79c7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Greedy_2839.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Greedy</Filter>
     </ClCompile>
     <ClCompile Include="Greedy_11399.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy_5585.cpp">
+      <Filter>소스 파일\Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy_4796.cpp">
+      <Filter>소스 파일\Greedy</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
