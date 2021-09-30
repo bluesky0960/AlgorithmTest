@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\Greedy">
       <UniqueIdentifier>{d6df3d1b-a244-493c-9896-5a9bf41f79c7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\DinamicProgramming">
+      <UniqueIdentifier>{d397eb3a-a3dd-4875-ae9a-45d43ef1a696}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Greedy_2839.cpp">
@@ -29,6 +32,12 @@
     </ClCompile>
     <ClCompile Include="Greedy_4796.cpp">
       <Filter>소스 파일\Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="DP_1003.cpp">
+      <Filter>소스 파일\DinamicProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="DP_10870.cpp">
+      <Filter>소스 파일\DinamicProgramming</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

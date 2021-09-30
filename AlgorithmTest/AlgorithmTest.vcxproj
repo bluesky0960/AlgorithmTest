@@ -138,6 +138,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DP_1003.cpp" />
+    <ClCompile Include="DP_10870.cpp" />
     <ClCompile Include="Greedy_11399.cpp" />
     <ClCompile Include="Greedy_2839.cpp" />
     <ClCompile Include="Greedy_4796.cpp" />

@@ -6,7 +6,7 @@ using namespace std;
 // https://www.acmicpc.net/problem/4796
 // 그리디 문제
 
-int main() {
+int greedy_4796() {
 	int n, N;
 	int L, P, V;
 	int mod;
