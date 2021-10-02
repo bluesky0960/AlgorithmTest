@@ -2,11 +2,14 @@
 
 using namespace std;
 
+// https://www.acmicpc.net/problem/10870
+// 동적 프로그래밍 문제
+
 int fiboList[100];
 
 int fibo2(int n);
 
-int main() {
+int dp_10870() {
 
 	int N;
 	cin >> N;

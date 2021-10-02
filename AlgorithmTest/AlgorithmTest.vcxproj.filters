@@ -39,5 +39,17 @@
     <ClCompile Include="DP_10870.cpp">
       <Filter>소스 파일\DinamicProgramming</Filter>
     </ClCompile>
+    <ClCompile Include="DP_11726.cpp">
+      <Filter>소스 파일\DinamicProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="DP_2748.cpp">
+      <Filter>소스 파일\DinamicProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="DP_9251.cpp">
+      <Filter>소스 파일\DinamicProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="DP_2133.cpp">
+      <Filter>소스 파일\DinamicProgramming</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
