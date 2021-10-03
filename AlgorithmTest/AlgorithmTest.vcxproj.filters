@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\DinamicProgramming">
       <UniqueIdentifier>{d397eb3a-a3dd-4875-ae9a-45d43ef1a696}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\BruteForce">
+      <UniqueIdentifier>{160f0259-b104-4938-b87a-f07b427cdc5b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Greedy_2839.cpp">
@@ -50,6 +53,12 @@
     </ClCompile>
     <ClCompile Include="DP_2133.cpp">
       <Filter>소스 파일\DinamicProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="BF_1065.cpp">
+      <Filter>소스 파일\BruteForce</Filter>
+    </ClCompile>
+    <ClCompile Include="BF_2309.cpp">
+      <Filter>소스 파일\BruteForce</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
