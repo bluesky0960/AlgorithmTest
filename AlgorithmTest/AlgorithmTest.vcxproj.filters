@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\Math">
       <UniqueIdentifier>{a992a844-ff2c-4df8-be82-7d3807d1a5d1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\DFS&amp;BFS">
+      <UniqueIdentifier>{3d7f65b1-32d2-4162-a2fd-776aa1b4bb6d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Greedy_2839.cpp">
@@ -68,6 +71,12 @@
     </ClCompile>
     <ClCompile Include="Math_2609.cpp">
       <Filter>소스 파일\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS_BFS_1260.cpp">
+      <Filter>소스 파일\DFS&amp;BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS_2178.cpp">
+      <Filter>소스 파일\DFS&amp;BFS</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
