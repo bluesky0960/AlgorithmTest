@@ -20,7 +20,7 @@ int dy[4] = {0, 0, -1, 1};
 
 int getBFS();
 
-int main() {
+int bfs_2178() {
 
 	cin >> N >> M;
 
