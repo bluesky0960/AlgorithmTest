@@ -7,14 +7,16 @@ for i in range(2, maxNum):
     if isPrime[i]:
         for j in range(2*i, maxNum, i):
             isPrime[j] = False
-print(isPrime)
 
 t = int(input())
 
 for _ in range(t):
     n = int(input())
     b = n//2
-
+    for i in range(b, 1, -1):
+        if isPrime[i] and isPrime[n-i]:
+            print(f"{i} {n-i}")
+            break
 """ 시간 초과
 def prime(n):
     for i in range(2, int(n**0.5)+1):
