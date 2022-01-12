@@ -6,14 +6,10 @@ def solution(left, right):
         for j in range(1, i+1):
             if i%j==0:
                 count+=1
-        if left != right:
-            if count%2==0:
-                answer+=i
-            else:
-                answer-=i
+
+        if count%2==0:
+            answer+=i
         else:
-            if count%2==0:
-                answer+=(i*2)
-            else:
-                answer-=(i*2)
+            answer-=i
+
     return answer
