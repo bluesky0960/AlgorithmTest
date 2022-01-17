@@ -1,16 +1,12 @@
 #https://www.acmicpc.net/problem/2750
-def mergeSort(n):
-    if len(n) <=1:
-        print(n)
-        return n
-    mid = len(n)//2
-    left = mergeSort(n[:mid])
-    right = mergeSort(n[mid:])
-    print(n)
-    return n
 n = int(input())
-a = [int(input()) for _ in range(n)]
-mergeSort(a)
+a = []
+for _ in range(n):
+    a.append(int(input()))
+
+a.sort()
+for i in a:
+    print(i)
 
 """
 python 라이브러리의 sort는 기본적으로 NlogN의
