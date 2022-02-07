@@ -1,4 +1,6 @@
-#https://programmers.co.kr/learn/courses/30/lessons/12953#
+# https://programmers.co.kr/learn/courses/30/lessons/12953#
+# N개의 최소공배수
+
 def solution(arr):
     answer = 0
     max_n = max(arr)
