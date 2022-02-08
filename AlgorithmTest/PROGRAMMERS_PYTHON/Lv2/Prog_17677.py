@@ -1,3 +1,6 @@
+# https://programmers.co.kr/learn/courses/30/lessons/17677
+# 뉴스클러스터링
+
 import re
 import math
 def solution(str1, str2):
