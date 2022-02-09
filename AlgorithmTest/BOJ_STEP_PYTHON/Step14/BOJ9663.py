@@ -2,8 +2,30 @@
 
 import sys
 
-n = int(sys.stdin.readline())
 
-# def dfs(num):
-#     for i in range(num):
-#         for j in range(num):
+n = int(sys.stdin.readline())
+a = [0] * 15
+count = 0
+
+def isPromise(col):
+    for i in range(col):
+        if a[col] == a[i] or col-i == abs(a[col]-a[i]):
+            return False
+    
+    return True
+
+def dfs(col):
+    if col == n:
+        global count
+        count+=1
+        return
+    
+    for i in range(n):
+        a[col] = i
+        if isPromise(col):
+            dfs(col + 1)
+
+
+
+dfs(0)
+print(count)
