@@ -26,6 +26,5 @@ def dfs(col):
             dfs(col + 1)
 
 
-
 dfs(0)
 print(count)
