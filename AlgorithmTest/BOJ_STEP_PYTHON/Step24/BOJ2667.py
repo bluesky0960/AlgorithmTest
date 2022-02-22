@@ -34,7 +34,7 @@ def bfs(x, y):
 
         q.popleft()
 
-        for i in range(4):
+        for i in range(4): #i = 0, 1,2,3
             newX = qx + dx[i]
             newY = qy + dy[i]
 
@@ -60,7 +60,7 @@ for i in range(n):
     for j in range(n):
         if isVisited[i][j]==0 and board[i][j]=='1':
             cnt=0
-            bfs(i, j)
+            bfs(i, j)  # cnt = 7 # cnt = 8
             house.append(cnt)
 
 house.sort()

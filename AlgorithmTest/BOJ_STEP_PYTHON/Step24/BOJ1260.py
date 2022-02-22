@@ -3,7 +3,7 @@
 import sys
 from collections import deque
 
-def dfs(node):
+def dfs(node):  # node= 1
     # 방문했으므로 1
     isVisited[node] = 1
     print(node, end=' ')
@@ -19,7 +19,7 @@ def bfs(node):
     
     # 앞써 DFS에서 방문을 한 후 1로 바꿨으니 반대로 0으로 변경
     isVisited[node] = 0
-    while q:
+    while q: # q안에 원소가 True
         # q앞에서 pop
         node = q.popleft()
         print(node, end=' ')
