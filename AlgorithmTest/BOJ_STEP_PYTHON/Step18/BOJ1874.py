@@ -4,13 +4,26 @@
 from sys import stdin
 
 n = int(stdin.readline().strip())
-
-num = [i for i in range(1, n+1)]
+numArr = [int(stdin.readline().strip()) for _ in range(n)]
+pre=0
+stack=[]
 tmp = []
-pre = 1
-for i in range(n):
-    num = int(stdin.readline().strip())
-    for j in range(pre, num):
-        tmp.append(j)
+for i in numArr:
+    if pre < i:
+        for j in range(pre+1, i+1):
+            tmp.append(j)
+            stack.append('+')
+        pre = tmp.pop()
+        stack.append('-')
+    else:
+        if tmp[-1] == i:
+            tmp.pop()
+            stack.append('-')
+        else:
+            break
 
-    pre = num
+if tmp:
+    print('NO')
+else:
+    for i in stack:
+        print(i)
