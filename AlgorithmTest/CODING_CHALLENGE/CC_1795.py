@@ -4,8 +4,10 @@ import sys
 
 n = int(sys.stdin.readline())
 tmp = list(map(int, sys.stdin.readline().split()))
-if len(tmp)-1 == 1:
-    print(min(tmp)*2)
-else:
-    tmp.sort()
-    print(tmp[1] * (len(tmp)-1))
+length = len(tmp)
+maxNum = 0
+tmp.sort()
+for i in range(length):
+    if maxNum < tmp[i] * (length - i):
+        maxNum = tmp[i] * (length-i)
+print(maxNum)
