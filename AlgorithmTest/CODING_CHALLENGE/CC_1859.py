@@ -1,3 +1,5 @@
+# https://ktaivle-ai.moducoding.com/Question/1859/View/1#1
+# 천하제일무술대회(중급)
 import sys
 from collections import deque
 
