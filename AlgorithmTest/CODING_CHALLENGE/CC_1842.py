@@ -16,8 +16,8 @@ a[2] = 1
 
 for i in range(3, n+1):
     if i%2==0:
-        a[i] = a[i-1] * i + 1
+        a[i] = (a[i-1] * i + 1)%10007
     else:
-        a[i] = a[i-1] * i - 1
+        a[i] = (a[i-1] * i - 1)%10007
 
-print(a[n]%10007)
+print(a[n])
