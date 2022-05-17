@@ -348,3 +348,6 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+AlgorithmTest/test2.py
+AlgorithmTest/test3.py
+AlgorithmTest/test4.py
